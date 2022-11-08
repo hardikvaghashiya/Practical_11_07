@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical_11_07</string>
+    <string name="filter">Filter</string>
+    <string name="str_apply_filter">Apply Filter</string>
+    <string name="str_select_account_number">Select Account Number</string>
+    <string name="str_select_brand">Select Brand</string>
+    <string name="str_select_location">Select Location</string>
+    <string name="str_apply">APPLY</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_add_to_filter">ADD TO FILTER</string>
+</resources>
