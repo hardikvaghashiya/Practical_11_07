@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Practical_11_07" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Practical_11_07" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,28 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Style.MonthYearPickerDialog.Orange" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Style.DialogButton.Black</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Style.DialogButton.Orange</item>
+        <item name="headerBackgroundColor">@color/teal_200</item>
+        <item name="headerTextColor">#66000000</item>
+        <item name="headerTextColorSelected">@color/black</item>
+        <item name="monthBackgroundColorSelected">@color/teal_200</item>
+        <item name="monthTextColor">@color/black</item>
+        <item name="monthTextColorDisabled">#4F000000</item>
+        <item name="monthTextColorSelected">@color/black</item>
+        <item name="yearTextColor">@color/black</item>
+        <item name="yearTextColorSelected">@color/teal_200</item>
+    </style>
+
+    <style name="Style.DialogButton.Black" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Style.DialogButton.Orange" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/teal_200</item>
     </style>
 </resources>

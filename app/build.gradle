@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.practical_11_07"
-        minSdk 21
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -51,4 +51,8 @@ dependencies {
 
     //Layout size manager
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    implementation 'io.github.dzmitry-lakisau:month-year-picker-dialog:1.0.0'
+
+    implementation 'io.github.ShawnLin013:number-picker:2.4.13'
 }

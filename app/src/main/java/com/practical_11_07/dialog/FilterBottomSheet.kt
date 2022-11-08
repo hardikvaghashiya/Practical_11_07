@@ -58,6 +58,7 @@ class FilterBottomSheet : BottomSheetDialogFragment(), RecyclerRowClick,
         mBinder.txtAccountNumber.setOnClickListener(clickListener)
         mBinder.txtBrand.setOnClickListener(clickListener)
         mBinder.txtLocation.setOnClickListener(clickListener)
+        mBinder.txtClear.setOnClickListener(clickListener)
 
         responseModel = Utility.getResponseFromAssets(requireContext())
 
@@ -94,6 +95,15 @@ class FilterBottomSheet : BottomSheetDialogFragment(), RecyclerRowClick,
         when (view.id) {
             R.id.imgClose -> {
                 dismiss()
+            }
+            R.id.txtClear ->{
+                mBinder.txtAccountNumberCount.text = "0"
+                arrCount[0] = "Acc No : 0"
+                mBinder.txtBrandCount.text = "0"
+                arrCount[1] = "Brand : 0"
+                mBinder.txtLocationCount.text = "0"
+                arrCount[2] = "Location : : 0"
+                adapterCount.notifyDataSetChanged()
             }
             R.id.txtAccountNumber -> {
                 var dialog = SelectFilterBottomSheet(listener, arrAccount, "Select Account", 1)

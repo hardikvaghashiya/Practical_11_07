@@ -8,4 +8,11 @@
     <string name="str_apply">APPLY</string>
     <string name="str_clear">Clear</string>
     <string name="str_add_to_filter">ADD TO FILTER</string>
+    <string name="str_pharma_zone">Pharma Zone</string>
+    <string name="set">Set</string>
+    <string name="number_picker_formatter">%02d</string>
+    <string name="str_next">Next</string>
+    <string name="str_view_more">View More</string>
+    <string name="str_debit_card">Debit Card</string>
+    <string name="str_credit_card">Credit Card</string>
 </resources>

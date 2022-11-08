@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/drawable/bg_button.xml" value="0.149" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/drawable/bg_filter.xml" value="0.149" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/drawable/ic_baseline_arrow_down_24.xml" value="0.149" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/drawable/ic_filter.xml" value="0.149" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/activity_main.xml" value="0.2203125" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/activity_select_filter.xml" value="0.23541666666666666" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/bottom_sheet_dialog_filter.xml" value="0.2317948717948718" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/bottom_sheet_select_filter.xml" value="0.23541666666666666" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/row_filter.xml" value="0.23541666666666666" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/row_filter_count.xml" value="0.2317948717948718" />
+        <entry key="..\:/Sample/Practical_11_07/app/src/main/res/layout/row_select_filter.xml" value="0.23541666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
